@@ -2,9 +2,9 @@ import socket
 from threading import Thread
 s=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 
-serverip="192.168.0.105"
+serverip="ur server ip"
 serverport=1234
-ip="192.168.0.104"
+ip="ur client ip"
 port=10048
 s.bind( (serverip,serverport) )
 print("welcome to chat server".center(60))
